@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/slide_head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/slide_desc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="21dp"
+        android:text="HEADING"
+        android:textColor="@color/colorWhite"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/slide_desc"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="64dp"
+        android:paddingBottom="30dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="30dp"
+        android:text="bdjkvbskdjbv dnvksdbvkjv  snvkjsbvkbsjv svnskjbvkjsdbvkjsn "
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="@color/colorTransparentWhite"/>
+
+    <ImageView
+        android:id="@+id/slide_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/slide_desc"
+        android:layout_alignParentStart="true"
+        app:srcCompat="@drawable/post" />
+
+
+</RelativeLayout>

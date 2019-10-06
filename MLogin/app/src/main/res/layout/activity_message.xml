@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shaw.mlogin.MessageAct"
+    tools:layout_editor_absoluteY="25dp">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+
+    <ListView
+        android:id="@+id/msglv1"
+        android:layout_width="383dp"
+        android:layout_height="466dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="57dp" />
+
+    <EditText
+        android:id="@+id/sendet1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button"
+        android:layout_alignBottom="@+id/button"
+        android:layout_alignParentStart="true"
+        android:ems="10"
+        android:hint="Enter Text Here"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="524dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/sendet1"
+        android:onClick="send"
+        android:text="Send"
+        tools:layout_editor_absoluteX="295dp"
+        tools:layout_editor_absoluteY="524dp" />
+
+
+</RelativeLayout>

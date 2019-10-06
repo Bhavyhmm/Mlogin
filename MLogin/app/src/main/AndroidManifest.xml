@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.shaw.mlogin">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher1_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoginAct">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SignUp" />
+        <activity
+            android:name=".Loggedin"
+            android:label="@string/title_activity_loggedin" />
+        <activity android:name=".SlideActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AdminInner"
+            android:label="@string/title_activity_admin_inner"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".DetailAct" />
+        <activity
+            android:name=".UserInner"
+            android:label="@string/title_activity_user_inner" />
+        <activity android:name=".AddPost" />
+        <activity
+            android:name=".BranchWisePost"
+            android:label="@string/title_activity_branch_wise_post"
+            android:parentActivityName=".UserInner" />
+        <activity
+            android:name=".MessageAct"
+            android:parentActivityName=".ShowuUser" />
+        <activity android:name=".ShowuUser" />
+        <activity android:name=".ProfileSetup" />
+        <activity android:name=".AddFaculty" />
+        <activity android:name=".ShowFaculty" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".ForgotPassword1" />
+        <activity android:name=".ForgotPassword2" />
+        <activity android:name=".AddEvent" />
+        <activity android:name=".ShowEvent" />
+        <activity android:name=".DetailFaculty" />
+        <activity android:name=".FacultyInner" />
+        <activity android:name=".AddMaterial"></activity>
+    </application>
+
+</manifest>

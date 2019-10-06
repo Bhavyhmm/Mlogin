@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Poly community</string>
+    <string name="title_activity_loggedin">Loggedin</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_admin_inner">AdminInner</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Logout</string>
+    <string name="title_activity_user_inner">Poly community</string>
+    <string name="title_activity_branch_wise_post">BranchWisePost</string>
+</resources>

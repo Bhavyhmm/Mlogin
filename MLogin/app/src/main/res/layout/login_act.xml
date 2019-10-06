@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/coordinator">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/nestedScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="com.example.shaw.mlogin.MainActivity"
+            android:orientation="vertical">
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="30dp"
+                android:background="@color/colorPrimaryDark">
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="40sp"
+                    android:textColor="#fff"
+                    android:text="Poly Community"/>
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#fff"
+                    android:text="      Community is a social level app to   bring   up    the   students    and teachers of polytechnic together at one place and communicate > ; )"
+                    android:textSize="20sp"
+                    android:justificationMode="inter_word"
+                    android:layout_marginTop="20dp"/>
+                <android.support.v7.widget.LinearLayoutCompat
+                    android:layout_marginTop="25dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="left">
+
+                    <android.support.v7.widget.AppCompatButton
+                        android:id="@+id/bt1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/buttonstyle2"
+                        android:text="SignUp"
+                        android:textColor="#fff" />
+
+                </android.support.v7.widget.LinearLayoutCompat>
+
+            </android.support.v7.widget.LinearLayoutCompat>
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_margin="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/textInputLayoutName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/et6"
+                        android:layout_width="350dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:drawableLeft="@drawable/ic_person_outline_black_24dp"
+                        android:hint="Email" />
+                </android.support.design.widget.TextInputLayout>
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/textInputLayoutPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/et7"
+                        android:layout_width="350dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+                        android:hint="Password"
+                        android:inputType="textPassword" />
+                </android.support.design.widget.TextInputLayout>
+                <android.support.v7.widget.AppCompatButton
+                    android:id="@+id/bt2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="0dp"
+                    android:background="@drawable/buttonstyle"
+                    android:text="Login"
+                    android:textColor="#FFF"/>
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/tv7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_marginTop="8dp"
+                    android:layout_gravity="center"
+                    android:textColor="#394dfc"
+                    android:text="Forgot Password"/>
+
+            </android.support.v7.widget.LinearLayoutCompat>
+        </android.support.v7.widget.LinearLayoutCompat>
+    </ScrollView>
+</android.support.design.widget.CoordinatorLayout>
